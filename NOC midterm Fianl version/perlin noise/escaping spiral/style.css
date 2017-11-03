@@ -1,0 +1,21 @@
+body{
+    background-color:rgb(71,72,75);
+    color:#eeeeee
+}
+
+h1{
+    margin:5%;
+    position:center;
+}
+#waveform{
+    margin:5%;
+    position:center;
+}
+button{
+    margin-left:5%;
+    align-content: 
+}
+#canvas{
+    margin:5%;
+    position:center;
+}

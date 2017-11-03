@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Smoke</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+
+<body>
+  <h1>Choose a File!</h1>
+
+  <div id="waveform" style="display:block;"></div>
+  <button type="button" name="button" id="toggle">Play/Stop</button>
+  <input type="file" id="files" name="files" accept="audio/*" />
+  <div id="container" style = "float:right"></div>
+
+  <script src="libraries/p5.js" charset="utf-8"></script>
+  <script src="libraries/p5.dom.js" charset="utf-8"></script>
+  <script defer src="libraries/dat.gui.js" charset="utf-8"></script>
+
+  <script src="libraries/p5.sound.js" charset="utf-8"></script>
+  <script src="libraries/wavesurfer.js" charset="utf-8"></script>
+  <script defer src="index.js" charset="utf-8"></script>
+  <script defer src="particle.js" charset="utf-8"></script>
+</body>
+
+</html>
