@@ -2,7 +2,7 @@
 Fall 2017
 
 =====CONCEPT=====
-For my final project, I want to extend my midterm sound visualization and make it in 3D. Basically, the particles will move according to the amplitude of the sound. Besides, the size of the shapes will also grow or shrink accordingly.
+  For my final project, I want to extend my midterm sound visualization and make it in 3D. Basically, the particles will move according to the amplitude of the sound. Besides, the size of the shapes will also grow or shrink accordingly.
 
 =====HOW I BUILT IT=====
 1. Wavesurfer.js: this is a javscript library which can give you the amplitude information and store it in an array. I didn;t choose to use p5.sound library because I want to keep the feature that the user can choose any sound file they have in their computer.
@@ -19,7 +19,7 @@ For my final project, I want to extend my midterm sound visualization and make i
 6. Besides, I used dat.gui to add contorls to the canvas so the user can decide to which shapes should appear on the screen and which should not.
 
 ======Lessons learned=====
-Don’t be afraid of 3D things! I used to think that 3D is so hard that I don’t dare to try because I don’t want to fail. However, the truth is 3D is not as difficult as I thought it would be. Besides, in 3D world, doing 2D things are really slow. For instance, I wanted to include flocking in my project, but I failed because the whole sketch gets really slow.
+  Don’t be afraid of 3D things! I used to think that 3D is so hard that I don’t dare to try because I don’t want to fail. However, the truth is 3D is not as difficult as I thought it would be. Besides, in 3D world, doing 2D things are really slow. For instance, I wanted to include flocking in my project, but I failed because the whole sketch gets really slow.
 
 =====Reference======
-Super fomula: http://paulbourke.net/geometry/supershape/
+  Super fomula: http://paulbourke.net/geometry/supershape/
